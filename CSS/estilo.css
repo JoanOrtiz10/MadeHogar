@@ -1,12 +1,13 @@
 *{
     padding: 0%;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
 }
  body{
     background: #fff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
    
  }
 
@@ -68,22 +69,54 @@
     width: 100%;
 
  }
+ /*IIIIIIIIIIIIIIIMMMMMMMMMMMGGGGGGGGGGGG*/
+ .contenido{
+   margin: 0 275px;
+ }
+
+ .contenido-item{
+   position: relative;
+      display: inline-block;
+ }
+
+ .contenido img  { 
+   width: 550px;
+   height: 350px;
+   margin-left: 75px;
+   padding: 50px;
+   display: block;
+   
+}
+.texto{
+   position: absolute;
+   top: 80%;
+   left: 80%;
+   transform: translate(-50%, -50%);
+   background:none;
+   color: rgb(4,57,70);
+   padding: 10px;
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+}
+
+ /*Fooooooterrr*/
  
 footer{
    background: rgb(231, 218, 222);
    width: 100%;
    height: 100px;
-   bottom: 0;
-  
    display: flex;
-   
+   bottom: 0;
+
 }
+
 
 .partfooter h4 {
    color: rgb(4,57,70);
    font-size: 20px;
    font-weight: bold;
    margin-bottom: 15px;
+   margin-left: 10px;
    text-align: center;
    background-color: rgb(231, 218, 222);
    border-radius: 5px;
@@ -96,7 +129,7 @@ footer{
    text-decoration: none;
    margin-bottom: 10px;
    font-weight: 500;
-   padding: 5px;
+   
  
 
 }
@@ -104,10 +137,15 @@ footer{
 
 .partfooter i {
    color: rgb(4,57,70);
+   
 }
-.contenido img  { 
-   width: 550px;
-   height: 350px;
-   margin-left: 75px;
-   padding: 50px;
+.instagram{
+   margin-left: 10px;
+}
+.facebook{
+   margin-left: 30px;
+}
+.tik-tok{
+   
+   margin-left: 50px;
 }
